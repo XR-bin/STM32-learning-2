@@ -1,0 +1,20 @@
+--cpu=Cortex-M4.fp.sp
+"..\..\output\startup_stm32f40_41xxx.o"
+"..\..\output\main.o"
+"..\..\output\stm32f4xx_it.o"
+"..\..\output\system_stm32f4xx.o"
+"..\..\output\sys.o"
+"..\..\output\delay.o"
+"..\..\output\usart.o"
+"..\..\output\misc.o"
+"..\..\output\stm32f4xx_rcc.o"
+"..\..\output\stm32f4xx_gpio.o"
+"..\..\output\stm32f4xx_dbgmcu.o"
+"..\..\output\stm32f4xx_usart.o"
+"..\..\output\stm32f4xx_dma.o"
+"..\..\output\led.o"
+"..\..\output\dma.o"
+--strict --scatter "..\..\Output\STM32F407ZGT6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\..\Output\STM32F407ZGT6.map" -o ..\..\Output\STM32F407ZGT6.axf
