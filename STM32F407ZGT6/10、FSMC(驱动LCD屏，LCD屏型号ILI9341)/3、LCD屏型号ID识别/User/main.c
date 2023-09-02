@@ -1,10 +1,12 @@
 #include "sys.h"
 #include "delay.h"
+#include "usart.h"
 #include "lcd.h"
 
 int main(void)
 {
     SysTick_Init();           /* 延时初始化 */
+    USART1_Init(115200);      /* 串口初始化 115200 */
     LCD_ILI9341_Init();       /* ILI9341的LCD屏初始化 */
 
     delay_ms(50);

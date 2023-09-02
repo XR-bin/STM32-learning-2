@@ -8,7 +8,7 @@
 
 
     /********************   宏定义   ********************/
-    /* SCL: */
+    /* SCL */
     #define SCL_H      GPIO_SetBits(GPIOB,GPIO_Pin_6)     /* 时钟线拉高 */
     #define SCL_L      GPIO_ResetBits(GPIOB,GPIO_Pin_6)   /* 时钟线拉低 */
 
@@ -16,7 +16,7 @@
     /* 输出： */
     #define SDA_OUT_H  GPIO_SetBits(GPIOB,GPIO_Pin_7)     /* 输出模式下数据线拉高 */
     #define SDA_OUT_L  GPIO_ResetBits(GPIOB,GPIO_Pin_7)   /* 输出模式下数据线拉低 */
-    /* 输入：*/
+    /* 输入： */
     #define SDA_IN     GPIO_SetBits(GPIOB,GPIO_Pin_7)              /* 输入模式 */
     #define SDA_INT    GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_7)     /* 接收到的值 */
 

@@ -40,4 +40,3 @@
 ..\..\output\lcd.o: ..\..\Drivers\SYSTEM\inc\usart.h
 ..\..\output\lcd.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\lcd.o: ..\..\Drivers\BSP\inc\fsmc.h
-..\..\output\lcd.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

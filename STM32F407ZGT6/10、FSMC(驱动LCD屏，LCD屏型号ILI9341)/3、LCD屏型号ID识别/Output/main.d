@@ -36,6 +36,6 @@
 ..\..\output\main.o: ..\..\Drivers\Libraries\FWlib\inc\stm32f4xx_dcmi.h
 ..\..\output\main.o: ..\..\Drivers\Libraries\FWlib\inc\stm32f4xx_fsmc.h
 ..\..\output\main.o: ..\..\Drivers\SYSTEM\inc\delay.h
-..\..\output\main.o: ..\..\Drivers\BSP\inc\lcd.h
 ..\..\output\main.o: ..\..\Drivers\SYSTEM\inc\usart.h
 ..\..\output\main.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\main.o: ..\..\Drivers\BSP\inc\lcd.h

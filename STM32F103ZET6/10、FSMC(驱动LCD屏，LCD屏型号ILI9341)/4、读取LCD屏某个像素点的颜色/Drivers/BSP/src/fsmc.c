@@ -84,7 +84,7 @@ void FSMC_LCD_Init(void)
     /* 配置复用输出 */
     /* 端口配置寄存器 */
     GPIO_InitStruct.GPIO_Pin = GPIO_Pin_0|GPIO_Pin_12;  /* PG0/12 端口配置 */
-    GPIO_Init(GPIOG, &GPIO_InitStruct);	           /* 根据设定参数初始化PG0/12 */
+    GPIO_Init(GPIOG, &GPIO_InitStruct);                 /* 根据设定参数初始化PG0/12 */
 
     /********** 关背光 **********/
     GPIOB->ODR &= ~(1<<0); 
